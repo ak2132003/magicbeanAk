@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Magicobeano Loader By Ahmed Khaled
+// @name         Magicobeano Loader (Dynamic)
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @author       Ahmed Khaled
 // @description  Dynamically loads magicobeano.user.js from GitHub
 // @match        *://*.centurygames.com/*
 // @connect      raw.githubusercontent.com
+// @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
 // @require      https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
 // @run-at       document-start
